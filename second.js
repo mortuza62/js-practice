@@ -33,25 +33,24 @@
 // console.log(friendsName[5]);
 
 const friendsAge= [20, 25, 30, 35, 40, 45];
-friendsAge[1]=50;
-friendsAge.push (55);
-friendsAge.pop ();
+// friendsAge[1]=50;
+// friendsAge.push (55);
+// friendsAge.pop ();
 const friendsName= ['Nanna', 'Panna', 'Manna', 'Sanna', 'Kanna', 'Arnna'];
 friendsName[0]='Replace';
-console.log(friendsName);
+// console.log(friendsName);
 friendsName.push("Rahim");
-console.log(friendsName);
+// console.log(friendsName);
 friendsName.pop();
 friendsName.unshift('Nusaifa', 'Mukta')
-console.log(friendsName);
+// console.log(friendsName);
 friendsName.shift();
-console.log(friendsName)
+// console.log(friendsName)
 
 // console.log(friendsAge);
-console.log(friendsName);
+// console.log(friendsName);
 
-
-
-
-
+const num=[ 10, 25, 20, 25, 30, 35, 40, 45, 50,55];
+const num2=num.slice(1, 5);
+console.log(num2);
 
