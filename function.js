@@ -120,3 +120,4 @@
 // const realFriend = isBestFriend(friendInfo);
 // console.log(realFriend);
 
+
